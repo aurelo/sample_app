@@ -31,5 +31,8 @@ gem 'jquery-rails'
 # gem 'ruby-debug19', :require => 'ruby-debug'
 
 group :test, :development do
-  gem "rspec-rails", "~> 2.6"
+  # gem 'turn'
+   gem 'rspec-rails'
+   gem 'capybara'
+   gem 'guard-rspec'
 end
